@@ -203,6 +203,7 @@ li {
   bottom: -150px;
   left: 100px;
   padding-top: 35px;
+  border-radius: 20px;
 }
 
 /* End landpage */
@@ -213,4 +214,9 @@ li {
 .image-card-land-page {
   width: 220px;
   height: 250px;
+}
+
+.cards-equipement {
+  box-shadow: -1px 5px 10px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px !important;
 }
