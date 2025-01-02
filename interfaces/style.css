@@ -128,16 +128,66 @@ li {
   border: none !important;
 }
 .css-video {
+  width: 100%;
+  height: 100%;
   position: relative;
-  height: auto;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.card-video-landpage {
-  position: absolute;
-  top: 250px;
-  left: 60px;
+
+@media only screen and (max-width: 600px) {
+  .card-video-landpage {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
+@media only screen and (min-width: 600px) {
+  .card-video-landpage {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .card-video-landpage {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card-video-landpage {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .big-card-video-landpage {
+    position: absolute;
+    bottom: -30px;
+  }
+  .card-video-landpage {
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .right-title-land-page {
   font-size: 30px;
   color: white;
@@ -146,9 +196,21 @@ li {
   font-size: 15px;
   color: white;
 }
+.big-card-video-landpage {
+  color: #172c42;
+  background-color: white;
+  position: absolute;
+  bottom: -150px;
+  left: 100px;
+  padding-top: 35px;
+}
 
 /* End landpage */
 
 /* start Footer*/
 
 /* End Footer*/
+.image-card-land-page {
+  width: 220px;
+  height: 250px;
+}
