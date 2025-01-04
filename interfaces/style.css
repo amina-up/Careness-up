@@ -6,8 +6,8 @@ nav,
 footer {
   background-color: #0079c3 !important;
 }
-a {
-  color: #172c42 !important;
+nav, a{
+  color: white !important;
 }
 
 .button-nav {
@@ -355,7 +355,7 @@ li {
   padding-left: 21px !important;
   padding-right: 32px !important;
   border: none !important;
-  background-color:#cee4f2 !important
+
 }
 .form-check-reverse {
   padding-right: 6.5em !important;
