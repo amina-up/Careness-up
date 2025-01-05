@@ -325,9 +325,7 @@ li {
   font-weight: bolder;
   color: #0079c3 !important;
 }
-.card-aide-adomicile {
-  margin-top: 190px;
-}
+
 
 .title-bonne-sante {
   color: #4c9f38;
@@ -361,4 +359,14 @@ li {
   padding-right: 6.5em !important;
   padding-left: 1px !important;
   text-align: left !important;
+}
+.star-rate{
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-filter{
+  width: 170px !important;
+  border-radius: 20px !important;
+  background-color: #fbfdff !important;
+  color: black !important;
 }
